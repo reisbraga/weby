@@ -1,0 +1,32 @@
+
+/* estilo.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6c82b1;
+    color: rgb(66, 13, 212);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: rgb(66, 86, 141);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a img {
+    width: 20px;
+    margin-right: 5px;
+}
