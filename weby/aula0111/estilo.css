@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Reddit+Mono:wght@200..900&family=Skranji:wght@400;700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Madimi One", sans-serif;
+}
+
+:root {
+    --bege: #d8c8a4;
+    --verde: #75c292;
+    --azul: #7ca0b3;
+    --azulescuro: #306785;
+    --preto: #000;
+    --branco: #fff;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--bege);
+    padding-top: 20px;
+  }
+
+
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: var(--azulescuro);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  a:hover {
+    background-color: var(--verde);
+  }
